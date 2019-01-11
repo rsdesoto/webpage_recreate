@@ -1,0 +1,104 @@
+.column {
+  display: inline-block;
+  width: 49%;
+}
+
+header {
+  text-align: center;
+  line-height: 0%;
+}
+
+h1 {
+  font-size: 25px;
+  font-variant: small-caps;
+  padding-top: 8px;
+}
+
+.biglet {
+  font-size: 32px;
+}
+
+.smalllet {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+h5 {
+  line-height: 110%;
+  margin: 0;
+}
+
+li {
+  vertical-align: top;
+}
+
+.column {
+  vertical-align: top;
+}
+
+.listp {
+  font-size: 9px;
+  margin-top: 2px;
+  line-height: 150%;
+}
+
+#disc {
+  font-size: 13px;
+  line-height: 110%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+#geico {
+  text-align: center;
+  font-size: 10px;
+  line-height: 0px;
+}
+
+#lastline {
+  padding-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: darkblue;
+}
+
+p {
+  color: darkblue;
+}
+
+#copy {
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a:active {
+  color: red;
+}
+
+a:link {
+  color: purple;
+}
+
+a:visited {
+  color: red;
+}
