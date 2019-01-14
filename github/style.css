@@ -78,6 +78,8 @@ header {
   width: 275px;
   font-weight: bold;
   margin-top: 30px;
+  box-sizing: content-box;
+  align-self: flex-start;
 }
 
 .card-list a {
@@ -164,6 +166,7 @@ main {
   display: flex;
   justify-content: center;
 }
+
 .main-feed {
   width: 600px;
 }
@@ -211,9 +214,29 @@ main {
   margin-bottom: 5px;
 }
 
+.recent-activity-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.recent-activity-title a:hover {
+  text-decoration: underline;
+  color: rgb(32, 105, 207);
+}
+
 .recent-activity-text {
   font-size: 12px;
   color: rgb(59, 59, 59);
+}
+
+.recent-activity-text a {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+}
+
+.recent-activity-text a:hover {
+  text-decoration: underline;
+  color: rgb(32, 105, 207);
 }
 
 .merge-icon {
@@ -234,4 +257,93 @@ main {
 
 .all-activity-header {
   padding-bottom: 20px;
+}
+
+.all-activity-img {
+  padding-right: 15px;
+}
+
+.all-activity-img img {
+  height: 35px;
+}
+
+.all-activity-block {
+  display: flex;
+}
+
+.all-activity-title a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.all-activity-title a:hover {
+  text-decoration: none;
+  color: rgb(32, 105, 207);
+}
+
+.all-activity-timing {
+  color: rgb(92, 92, 92);
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.all-activity-content {
+  width: 100%;
+}
+
+.all-activity-details {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px lightgrey solid;
+  border-radius: 3px;
+}
+
+.all-activity-star-button {
+  color: black;
+  font-size: 13px;
+  height: 30px;
+  border-radius: 3px;
+  background-image: linear-gradient(#f3f3f3, #e4e2e2);
+
+  border-color: #b6b6b6;
+}
+
+button:hover {
+  background-image: linear-gradient(#e2e2e2, #b3b3b3);
+  border-color: #adadad;
+}
+
+.all-activity-details-header {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.all-activity-details-header:hover {
+  color: rgb(32, 105, 207);
+}
+
+.all-activity-details-details {
+  font-size: 14px;
+  padding: 10px 0 10px 0;
+  color: rgb(77, 77, 77);
+}
+
+.all-activity-stats {
+  padding-right: 10px;
+  font-size: 13px;
+  color: rgb(87, 87, 87);
+}
+
+.all-activity-stats a {
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+}
+
+.all-activity-stats a:hover {
+  text-decoration: none;
+  color: rgb(32, 105, 207);
 }
