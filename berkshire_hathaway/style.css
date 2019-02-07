@@ -94,6 +94,11 @@ p {
   margin-bottom: 15px;
 }
 
+#hello-from-ry {
+  font-size: 15px;
+  color: red;
+}
+
 .bold {
   font-weight: bold;
 }
