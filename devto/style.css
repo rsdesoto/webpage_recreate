@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+em {
+  font-weight: bold;
+}
+
 .button-dark {
   color: white;
   background-color: rgb(62, 76, 215);
@@ -191,12 +195,23 @@ main {
 }
 
 .left-nav-option:hover {
-  background-color: rgb(226, 226, 226)
+  background-color: rgb(226, 226, 226);
+  color: rgb(62, 76, 215);
 }
 
 .left-nav-more {
   color: rgb(100, 112, 125);
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.left-nav-more:hover {
+  background-color: rgb(226, 226, 226);
 }
 
 /* repository card */
