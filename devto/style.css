@@ -142,7 +142,6 @@ main {
 
 .middle-column {
     width: 50%;
-    border: 1px solid blue;
     margin: 0 15px 0 15px;
 }
 
@@ -169,6 +168,10 @@ main {
   margin: 10px 0;
   color: #4d5760;
   line-height: 26px;
+}
+
+.intro-link {
+  color: rgb(62, 76, 215);
 }
 
 .icon-wrapper {
@@ -264,4 +267,118 @@ main {
 .card-img {
   width: 100%;
   border-radius: 8px 8px 0 0;
+  margin-bottom: 10px;
+}
+
+.card-author {
+  display: flex;
+}
+
+.card-author-icon {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  border: 1px solid rgb(230, 230, 230);
+  margin: 0 10px 0 15px;
+}
+
+.card-author-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-author-name {
+  font-size: 15px;
+}
+
+.card-author-date {
+  font-size: 12px;
+}
+
+.card-title {
+  margin-left: 58px;
+  margin-top: 13px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card-title-link:hover {
+  color: rgb(62, 76, 215);
+}
+
+.card-tag-container {
+  margin-left: 58px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.card-tag {
+  margin-right: 10px;
+  font-size: 14px;
+  color: rgb(100, 112, 125);
+}
+
+.card-tag:hover {
+  color: rgb(8, 9, 10);
+}
+
+.card-hash {
+  opacity: 0.4;
+}
+
+.card-footer {
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-reactions {
+  display: flex;
+}
+
+.reaction-button {
+  padding: 8px 10px;
+  line-height: 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(54, 61, 68);
+}
+
+.reaction-button:hover {
+  background-color: rgb(246, 246, 246);
+}
+
+.card-footer {
+  display: flex;
+}
+
+.card-save {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.card-save-button {
+  color: rgb(54,61,68);
+  background-color: rgb(210, 214, 219);
+  padding: 5px 10px;
+  line-height: 24px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card-time-read {
+  color: rgb(101,113,126);
+  font-size: 14px;
+  margin-right: 5px;
 }
