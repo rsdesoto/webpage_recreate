@@ -18,6 +18,11 @@ header .button-dark {
   margin-left: 15px;
 }
 
+a {
+  color: rgb(36, 36, 36);
+  text-decoration: none;
+}
+
 .button-dark {
   color: white;
   background-color: rgb(62, 76, 215);
@@ -162,5 +167,36 @@ main {
   line-height: 26px;
 }
 
+.icon-wrapper {
+  height: 24px;
+  width: 24px;
+  padding-right: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-nav {
+  margin-top: 15px;
+}
+
+.left-nav-option {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.left-nav-option:hover {
+  background-color: rgb(226, 226, 226)
+}
+
+.left-nav-more {
+  color: rgb(100, 112, 125);
+  font-size: 14px;
+}
 
 /* repository card */
