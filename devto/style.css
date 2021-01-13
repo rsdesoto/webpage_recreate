@@ -214,4 +214,54 @@ main {
   background-color: rgb(226, 226, 226);
 }
 
-/* repository card */
+/* middle column */
+
+.middle-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-nav-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.middle-nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-nav-link {
+  padding: 8px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.middle-nav-link:hover {
+  background-color: rgb(220 223 239);
+  box-sizing: border-box;
+}
+
+.middle-nav-active {
+  /* box-sizing: border-box; */
+  padding-bottom: 9px;
+  border-bottom: 2px solid rgb(62, 76, 215);
+}
+
+.middle-nav-link-active:hover {
+  border-bottom: 2px solid rgb(62, 76, 215);
+}
+
+.middle-card {
+  background-color: white;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: 5px 0;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
