@@ -244,11 +244,12 @@ main {
 .middle-nav-link:hover {
   background-color: rgb(220 223 239);
   box-sizing: border-box;
+  color: rgb(62, 76, 215);
 }
 
 .middle-nav-active {
   /* box-sizing: border-box; */
-  padding-bottom: 9px;
+  padding-bottom: 7px;
   border-bottom: 2px solid rgb(62, 76, 215);
 }
 
