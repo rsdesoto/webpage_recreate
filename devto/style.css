@@ -433,3 +433,16 @@ main {
 .listings-create:hover {
   color: rgb(62, 76, 215);
 }
+
+
+#hello-from-ry {
+  position: fixed;
+  padding: 15px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  background-color: white;
+  color: rgb(190, 102, 0);
+}
