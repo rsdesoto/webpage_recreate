@@ -224,7 +224,7 @@ main {
   justify-content: space-between;
 }
 
-.middle-nav-title {
+.top-nav-title {
   font-size: 20px;
   font-weight: bold;
   padding: 8px 0;
@@ -250,10 +250,6 @@ main {
 .middle-nav-active {
   /* box-sizing: border-box; */
   padding-bottom: 7px;
-  border-bottom: 2px solid rgb(62, 76, 215);
-}
-
-.middle-nav-link-active:hover {
   border-bottom: 2px solid rgb(62, 76, 215);
 }
 
@@ -382,4 +378,58 @@ main {
   color: rgb(101,113,126);
   font-size: 14px;
   margin-right: 5px;
+}
+
+.right-listings-container {
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 7px;
+}
+
+.right-header {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-listings-link {
+  font-size: 14px;
+  color: rgb(62, 76, 215);
+  font-weight: 400;
+}
+
+.listings-link {
+  padding: 15px;
+  border-top: 1px solid rgb(230, 230, 230);
+}
+
+.listings-link:hover {
+  background-color: white;
+}
+
+.listings-link:hover .listings-title {
+  color: rgb(62, 76, 215);
+}
+
+.listings-title {
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.listings-category {
+  font-size: 14px;
+  color: rgb(100, 112, 125);
+}
+
+.listings-create {
+  font-size: 15px;
+  text-align: center;
+  border-top: 1px solid rgb(230, 230, 230);
+  padding: 15px;
+}
+
+.listings-create:hover {
+  color: rgb(62, 76, 215);
 }
