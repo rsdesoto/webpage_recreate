@@ -18,6 +18,10 @@ header .button-dark {
   margin-left: 15px;
 }
 
+main {
+  padding-bottom: 50px;
+}
+
 a {
   color: rgb(36, 36, 36);
   text-decoration: none;
